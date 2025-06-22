@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kursach/static/css/main.bd558872.css",
+    "main.js": "/kursach/static/js/main.3f4dd2b8.js",
+    "static/media/kosmos.jpg": "/kursach/static/media/kosmos.746c51364946dfb20b40.jpg",
+    "static/media/gallery5.jpg": "/kursach/static/media/gallery5.633319da73c5e89f3670.jpg",
+    "static/media/car.png": "/kursach/static/media/car.6cf3fa478d0c08e3a758.png",
+    "static/media/apokal.png": "/kursach/static/media/apokal.07aa8c95f660d194405b.png",
+    "static/media/war.png": "/kursach/static/media/war.479191ca6245f536b55c.png",
+    "static/media/drakon.jpg": "/kursach/static/media/drakon.1faf28823f2bfbc8974c.jpg",
+    "static/media/game-illustration.jpg": "/kursach/static/media/game-illustration.33ff11445549c7b0020e.jpg",
+    "static/media/logo192.png": "/kursach/static/media/logo192.76f4c61208813df1e069.png",
+    "index.html": "/kursach/index.html",
+    "main.bd558872.css.map": "/kursach/static/css/main.bd558872.css.map",
+    "main.3f4dd2b8.js.map": "/kursach/static/js/main.3f4dd2b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd558872.css",
+    "static/js/main.3f4dd2b8.js"
+  ]
+}
