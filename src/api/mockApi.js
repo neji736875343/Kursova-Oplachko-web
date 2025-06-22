@@ -1,0 +1,18 @@
+export const getFeaturedNews = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve([
+        { id: 1, title: 'Вийшов новий патч для Cyberpunk 2077 2.1', shortDescription: 'Оновлення додає багатокористувацький режим та покращує графіку.', imageUrl: 'https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/12aaa3b137a18e180bb92682e8f81674dcb7451f-1920x1080.jpg', link: 'https://www.cyberpunk.net/ru/news/49675/patch-2-1-spisok-izmenenii' },
+        { id: 2, title: 'Elden Ring: Shadow of the Erdtree — реліз 20 червня 2025', shortDescription: 'Новий DLC приніс епічні битви та нові локації.', imageUrl: 'https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2022/2/8/ynu2k9yf882la76z9nxk/elden-ring-key-art', link: 'https://store.steampowered.com/app/2778580/ELDEN_RING_Shadow_of_the_Erdtree/' },
+        { id: 3, title: 'Nintendo Switch 2 анонсовано на E3 2025', shortDescription: 'Потужніше залізо та зворотна сумісність із попередніми іграми.', imageUrl: 'https://images.unian.net/photos/2024_04/thumb_files/1200_0_1714137953-8403.jpg', link: 'https://www.unian.net/games/nintendo-switch-2-anonsirovana-vyshel-treyler-s-dizaynom-konsoli-12885999.html' },
+        { id: 4, title: 'Топ-5 ігор літа 2025', shortDescription: 'Експерти обирають найкращі релізи червня та липня.', imageUrl: 'https://cs14.pikabu.ru/post_img/2023/05/18/5/og_og_1684394298226344110.jpg', link: 'https://bibliotech.com.ua/igry/top-5-najpopulyarnishyh-komp-yuternyh-igor-u-sviti' },
+        { id: 5, title: 'NAVI перемагає на турнірі ESL One 2025', shortDescription: 'Українська команда здобула титул у CS2 22 червня.', imageUrl: 'https://d3dwep9z8m8y9r.cloudfront.net/publications/2022/10/publications-9967/thumbnail/32251/1738.jpg', link: 'https://www.unian.ua/games/navi-vigraye-counter-strike-2-na-vistavci-iem-rio-2024-12786717.html' },
+        { id: 6, title: 'PlayStation 6: перші деталі', shortDescription: 'Анонсовано специфікації та ексклюзивні ігри на 2026 рік.', imageUrl: 'https://cdn1.ntv.com.tr/gorsel/W6B0kDXebkmYcfOEulYGVQ.jpg?width=1200&mode=crop&scale=both', link: 'https://www.unian.net/games/ps6-chto-izvestno-date-vyhoda-cena-nachinka-i-mnogoe-drugoe-12665223.html' },
+        { id: 7, title: 'Новий мод для Skyrim SE', shortDescription: 'Фанати додали реалістичні NPC та оновлену графіку.', imageUrl: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheElderScrollsVSkyrim.jpg', link: 'https://www.championat.com/cybersport/news-5546738-dlya-skyrim-vyshel-ogromnyj-mod-s-novymi-kvestami-i-lokaciyami-nad-nim-rabotali-5-let.html' },
+        { id: 8, title: 'VR-ігри: огляд новинок 2025', shortDescription: 'Найкращі VR-заголовки, випущені в першій половині року.', imageUrl: 'https://ipstyle.ua/wp-content/uploads/2021/08/jessica-lewis-DeyfdybVQhA-unsplash-scaled.jpg', link: 'https://store.steampowered.com/vr/?l=russian' },
+        { id: 9, title: 'Xbox Game Pass: 10 нових ігор у червні', shortDescription: 'Список включає популярні назви та інді-проєкти.', imageUrl: 'https://storage-asset.msi.com/event/2024/NB/Microsoft-Game-Pass-New/images/Xbox-Game-KV.jpg', link: 'https://www.xbox.com/uk-UA/xbox-game-pass/pc-game-pass' },
+        { id: 10, title: 'Unity vs Unreal: оновлення 2025', shortDescription: 'Порівняння нових функцій обох ігрових двигунів.', imageUrl: 'https://static.tildacdn.one/tild3538-3930-4333-b331-303633353162/blog-header-vs-5.jpeg', link: 'https://gamedev.dou.ua/articles/unity-or-unreal-engine/' },
+      ]);
+    }, 500);
+  });
+};
